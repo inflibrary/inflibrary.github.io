@@ -1,3 +1,4 @@
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,9 +18,49 @@
             font-size: 1.5rem;
             margin-top: 10px;
         }
+        .guide {
+            background-color: #333;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 30px;
+            text-align: left;
+            font-size: 1.2rem;
+        }
+        .highlight {
+            color: #ff4081;
+        }
+        .warning {
+            background-color: #ff6f61;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
     <h1>Infinite Library</h1>
     <p>A library full of Infinite Yield plugins and commands to download with the click of a button.</p>
+
+    <div class="guide">
+        <h2>How to Download</h2>
+        
+        <div class="warning">
+            ⚠️ Important: Do not execute Infinite Yield first!
+        </div>
+        
+        <p>To get started, follow these steps:</p>
+        
+        <ol>
+            <li>Run the following script inside of your Exploit:
+                <br><code>return loadstring(game:HttpGet("https://raw.githubusercontent.com/flamespill/InfLib/refs/heads/main/Core/Main.lua"))()</code>
+            </li>
+            <li>To open the InfLib UI, use either the <strong>InfLib</strong> or <strong>Plugins</strong> command.</li>
+        </ol>
+        
+        <h3>Troubleshooting:</h3>
+        <p>If the tutorial didn’t work, check that you followed all steps correctly.</p>
+        <p>If the issue persists, your exploit might not be powerful enough to run this script.</p>
+    </div>
 </body>
+</html>
