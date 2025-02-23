@@ -3,14 +3,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Infinite Library</title>
-
-    <!-- Include Prism.js styles -->
-    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.27.0/themes/prism.css" rel="stylesheet" />
-    
-    <!-- Include Prism.js -->
-    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.27.0/prism.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.27.0/components/prism-lua.min.js"></script>
-
     <style>
         body {
             background-color: rgb(36, 36, 37);
@@ -44,13 +36,6 @@
             font-weight: bold;
             margin-bottom: 20px;
         }
-        pre {
-            background-color: rgb(36, 36, 37); /* Matching the body background color */
-            padding: 20px;
-            border-radius: 10px;
-            overflow-x: auto;
-            color: #fff; /* Ensure text is white for readability */
-        }
     </style>
 </head>
 <body>
@@ -67,8 +52,9 @@
         <p>To get started, follow these steps:</p>
         
         <ol>
-            <li>Run the following script inside of your Exploit:</li>
-            <pre><code class="language-lua">return loadstring(game:HttpGet("https://raw.githubusercontent.com/flamespill/InfLib/refs/heads/main/Core/Main.lua"))()</code></pre>
+            <li>Run the following script inside of your Exploit:
+                <br><code>return loadstring(game:HttpGet("https://raw.githubusercontent.com/flamespill/InfLib/refs/heads/main/Core/Main.lua"))()</code>
+            </li>
             <li>To open the InfLib UI, use either the <strong>InfLib</strong> or <strong>Plugins</strong> command.</li>
         </ol>
         
